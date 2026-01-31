@@ -1,0 +1,20 @@
+{
+  "emails": [
+    "support@company.com",
+    "admin.security@company.co.uk"
+  ],
+  "urls": [
+    "https://www.company.com",
+    "https://api.company.org/v1/data."
+  ],
+  "phoneNumbers": [
+    "123-456-7890"
+  ],
+  "creditCards": [
+    "1234 5678 9012 3456"
+  ],
+  "times": [
+    "14:30",
+    "2:45 PM"
+  ]
+}
