@@ -1,33 +1,31 @@
-# Input Description
-The application accepts *raw text input*, representing data returned from an external API.  
-The text includes realistic formatting such as:
-- Emails
-- URLs
-- Phone numbers
-- Credit card numbers
-- Time values
-- Irregular spacing and mixed content
+# Regex Data Extraction & Secure Validation
 
-Malicious or malformed content (e.g., script tags) may also appear in the input.
+# Overview
+This project extracts structured data from raw text using Python and regular expressions (regex). It validates input to ensure it is well-formed and ignores unsafe or malformed data. The program handles realistic data formats and protects sensitive information.
 
-# Data Types Extracted
-The program extracts and validates the following data types:
+# Features
+- Extracts:
+  - Email addresses
+  - URLs (HTTP/HTTPS)
+  - Phone numbers
+  - Time values (12-hour and 24-hour formats)
+  - Hashtags
+  - Credit card numbers (masked for security)
+- Ignores invalid or unsafe input
+- Outputs structured JSON
 
-1. *Email Addresses*
-2. *URLs*   
-3. *Phone Numbers*
-4. *Credit Card Numbers*
-   - Output is masked for security
-5. *Time (12-hour & 24-hour formats)*
+# Project Structure
+
+# Usage
+1. Open a terminal and navigate to the `src` folder:
+2. Run the script:
+3. Extracted data is printed to the console and saved to `output/sample_output.json`.
 
 # Security Considerations
-- Regex patterns are designed to avoid over-matching unsafe input.
-- Sensitive data such as *credit card numbers is masked* before being displayed.
-- Extracted content is rendered as *plain text / JSON*, never as HTML.
-- Script tags or malicious payloads are ignored and not executed.
-- The program assumes all input is untrusted.
+- Only valid emails, URLs, and phone numbers are extracted
+- Credit card numbers are masked to prevent exposure
+- Malicious input (e.g., `javascript:` URLs) is ignored
 
-#  How to Run the Project
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/fnyisenge/alu_regex-data-extraction-fnyisenge
+# Author
+Junior Frontend Developer  
+African Leadership University
