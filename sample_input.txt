@@ -1,0 +1,19 @@
+Hello Team,
+
+Please contact me via email at faustine.nyisenge@gmail.com or support@company.co.uk.
+This email is invalid and should be ignored: test@@mail..com
+
+Visit https://www.example.com or http://sub.example.org/page
+Avoid malicious links like javascript:alert('hack')
+
+You can call me on (250) 788-123-456 or 250-788-123-456.
+Wrong number: 12345
+
+Payment was processed using card number 4111 1111 1111 1111.
+Do not store this test number: 0000-0000-0000-0000.
+
+Meeting times are 14:30 and 2:30 PM.
+Invalid time: 29:77
+
+Thanks,
+#ALUStudent #RegexAssignment

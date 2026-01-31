@@ -1,0 +1,26 @@
+{
+  "emails": [
+    "faustine.nyisenge@gmail.com",
+    "support@company.co.uk"
+  ],
+  "urls": [
+    "https://www.example.com",
+    "http://sub.example.org/page"
+  ],
+  "phone_numbers": [
+    "788-123-456",
+    "250-788-123"
+  ],
+  "times": [
+    "14:30",
+    "2:30"
+  ],
+  "hashtags": [
+    "#ALUStudent",
+    "#RegexAssignment"
+  ],
+  "credit_cards": [
+    "4111 1111 1111 1111",
+    "0000-0000-0000-0000"
+  ]
+}
